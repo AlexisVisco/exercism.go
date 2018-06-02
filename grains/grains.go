@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-// Sum of a geometric suite of U(n+1)=2*U(n) == 2^(64+1) - 1.
+// Sum of a geometric sequence of U(n+1)=2*U(n) == 2^(64+1) - 1.
 // 2^(64+1) - 1 == 3.68934881e19 == 36899348810000000000
 // 36899348810000000000 > math.MaxUint64
 // value of this exercise cannot be performed in despite of
